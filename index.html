@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <div id="headerContainer"></div>
-    
+    <div id="header"></div>
+
     <script>
         async function loadHTMLComponent(url, targetElementId) {
             try {
@@ -33,8 +33,8 @@
             }
         }
         // Load the HTML component into the target element
-        loadHTMLComponent('/source/components/header.html', 'headerContainer');
-        loadHTMLComponent('footer.html', 'footerContainer');
+        loadHTMLComponent('/source/components/header.html', 'header');
+        loadHTMLComponent('footer.html', 'footer');
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
